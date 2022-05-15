@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'RixYeoljeongdo_Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body{
+  display: flex;
+  width: 100%;
+}
+
+.player{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(205, 205, 255);
+  height: 100vh;
+  width: 33%;
+}
+
+.playerLead{
+  background-color: rgb(255, 255, 255);
+  height: 60%;
+  width: 80%;
+  margin-top: 10%;
+  border-radius: 25px;
+}
+
+.monitor{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(143, 143, 143);
+  height: 100vh;
+  width: 33%;
+  align-items: center;
+}
+
+.result{
+  background-color: rgb(255, 255, 255);
+  height: 60%;
+  width: 80%;
+  margin-top: 10%;
+  border-radius: 25px;
+}
+
+.lead{
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btnGrp{
+  margin-top: 10%;
+}
+
+.card{
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  font-family: 'RixYeoljeongdo_Regular';
+  color: white;
+}
+
+.rock{
+  background-color: rgb(255, 166, 0);
+}
+
+.scissor{
+  background-color: green;
+}
+
+.paper{
+  background-color: blueviolet;
+}
+
+.opponent{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 205, 205);
+  height: 100vh;
+  width: 33%;
+}
+
+.opnt{
+  background-color: rgb(255, 255, 255);
+  height: 60%;
+  width: 80%;
+  margin-top: 10%;
+  border-radius: 25px;
+}
+
+.score{
+  font-family: 'RixYeoljeongdo_Regular';
+  text-align: center;
+  font-size: 30px;
+}
+
+.reset{
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  font-family: 'RixYeoljeongdo_Regular';
+  color: rgb(0, 0, 0);
+}
+
+.hidden{
+  display: none;
+}
